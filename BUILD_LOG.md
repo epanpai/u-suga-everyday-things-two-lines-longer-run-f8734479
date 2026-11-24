@@ -121,6 +121,14 @@ wrong idea line 1 could plant, which is exactly what the brief prizes;
 - (Bundle v3 + check v3 on the final commit, after this BUILD_LOG section
   was appended and committed, to be recorded here by the builder before
   handoff.)
+  DONE: bundle v3 ~/workspace/makefun/submit/u-suga-transcripts-v3.tar.gz
+  (643,945 bytes, sha256 e4e0e2a3d54cde8524761af3c018ca9cc62672b4e78c4977ce4ada9f6eeb9d53),
+  15 sessions. Check v3 on commit 5b1a3d7: 13 pass / 1 fail / 5 skip / 5 at
+  submission. Only thinking_priced still FAILs (0 usage rows — top-level
+  agent's step, see §7). thinking_revised PASS, thinking_in_window PASS
+  (all 225 timestamps in window), thinking_reproduces 83.3% PASS,
+  thinking_own_work PASS. Final commit after this BUILD_LOG update:
+  see §7 (submit the HEAD commit below, re-check after re-bundle).
 
 ## 7. HANDOFF — top-level agent, AFTER this builder run completes
 1. muse.db SELECT usage rows for this builder subagent
